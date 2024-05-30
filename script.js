@@ -1,4 +1,4 @@
-import { urlPost } from "./server/UrlPost";
+import { urlPost } from "./server/UrlPost.js";
 document.addEventListener("DOMContentLoaded", async () => {
     const urlList = document.getElementById('posts');
     const response = await urlPost();

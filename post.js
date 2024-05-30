@@ -23,6 +23,4 @@ document.addEventListener("DOMContentLoaded", async () => {
         `).join('');
 
 
-
-
 });
